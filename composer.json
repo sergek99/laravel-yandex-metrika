@@ -1,0 +1,23 @@
+{
+  "name": "Sergek99/yandex-metrika",
+  "description": "Laravel 5 Yandex Metrika",
+  "keywords": ["laravel", "yandex", "metrika"],
+  "homepage": "https://github.com/sergek99/yandex-metrika",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "serge",
+      "email": "sketcompani@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/support": "5.0.*|5.1.*|5.2.*",
+    "guzzlehttp/guzzle": "^6.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Sergek99\\YandexMetrika\\": "src"
+    }
+  }
+}
